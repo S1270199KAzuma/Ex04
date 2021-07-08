@@ -13,11 +13,14 @@ int main(){
     printf("Die 2: %d\n",Dice2);
     printf("Total value: %d\n",Dice1 + Dice2);
     
+    for(i = 0; i < N; i++){
+        printf("%c",name[i]);
+    }
     if((Dice1 + Dice2) > 7){
-        printf("You won\n");
+        printf(" won!\n");
     }
     else{
-        printf("You lose\n");
+        printf(" lose!\n");
     }
     
     return 0;
